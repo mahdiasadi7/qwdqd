@@ -813,12 +813,12 @@
     <!-- loader  -->
 
     <div class="loader-container">
-        <img src="image/loader-img.gif" alt="">
+        <img src="{{asset('book-disk/image/loader-img.gif')}}" alt="">
     </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
     <!-- custom js file link  -->
-    <script src="{{ asset('book-disk/css/style.css') }}"></script>
+    <script src="{{ asset('book-disk/js/script.js') }}"></script>
 
 </body>
 
